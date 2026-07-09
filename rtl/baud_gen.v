@@ -1,7 +1,9 @@
 module  baud_generator#(
   parameter CLK_FREQ=50_000_000,
   parameter BAUD_RATE = 9600)(
-  input clk,input rst, output reg baud_tick
+  input clk,
+  input rst, 
+  output reg baud_tick
 );
  
 
