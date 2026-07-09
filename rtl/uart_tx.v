@@ -12,7 +12,6 @@ reg [2:0]bit_count;
 reg [7:0]shift_register;
 reg [1:0]state;
 
-
 //state encoding
 localparam IDLE = 2'b00,
            START = 2'b01,
